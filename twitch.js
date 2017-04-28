@@ -7,7 +7,7 @@
     var $logos = ["logo11", "logo21", "logo31", "logo41", "logo51", "logo61", "logo71", "logo81", "logo91",];
     var mainVessel="", onlineVessel = "", offlineVessel = "", channelName = "",logo="";
     // var $url = "https://wind-bow.gomix.me/twitch-api";/*use according to twitch api documentation https://dev.twitch.tv/docs */
-    var $url = "includes/data/twtv.json";
+    var $url = "twtv.json";
    // var $url = "https://gist.github.com/QuincyLarson/2ff6892f948d0b7118a99264fd9c1ce8.js";
     
     var $err = $("#errMsg");
