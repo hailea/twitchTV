@@ -1,0 +1,58 @@
+﻿.statusText{
+        position:absolute;
+        right:15%;
+    } 
+label{
+    color:blue;
+}
+.offlineStyle{
+    height:10%;
+    background-color:rgba(0,0,250,0.2);border:2px solid rgba(0,0,250,0.2);
+}
+.onlineStyle{
+    height:10%;
+    background-color:rgba(250,0,20,0.2);border:2px solid rgba(0,0,250,0.2);
+}
+.logoStyle{
+    width:50px;height:50px;margin-right:5%;
+}
+.chContainer{
+    width:90%;border:2px solid rgba(0,0,250,0.2); 
+}   
+/* Small devices (small phones) */
+@media (max-width: 400px) {
+    body{
+        margin:5px 5px;padding:2px;border:5px solid #ff0a00;font-size:1em;
+    } 
+    .chContainer{
+    width:98%;border:1px solid rgba(0,0,250,0.2); 
+} 
+    
+}
+/* Small devices (smartphones) */
+@media (min-width: 400px) {
+    body{
+        margin:10px;padding:10px;border:5px solid #ff6a00;font-size:1.5em;
+    } 
+}  
+
+/* Small devices (tablets) */
+@media (min-width: 600px) {
+ body{
+        margin:15px 30px;padding:15px;border:7px solid #ff6a55;font-size:1.9em;
+    } 
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 850px) { 
+     body{
+        margin:20px;padding:20px;border:10px solid #ff6a99;font-size:2.2em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1100px) { 
+    body{
+        margin:25px;padding:30px;border:15px solid #ff6aff;
+    }
+}
